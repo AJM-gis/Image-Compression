@@ -2,10 +2,10 @@
 
 # The problem: 
 - Employees working on a data collection exercise drop photos onto a server. They also create their own individual folder structures, it is not possible to predict what folder structure they will use. They will also drop other types of files into these folders.
-- Client wishes to see the data displayed on an interactive mapping platform which shows the location of the images and is capable on displaying them within the platform.
+- Client wishes to see the data displayed on an interactive mapping platform which shows the location of the images and is capable of displaying them within the platform.
 
 # The Solution:
-A Python Script which is capable of grabbing all of the image files from a directory, and then creates a SHP file which contains relevant data regarding each image. This SHP file is then utilised by QGIS Server and a web-client to display the images and their locations as a point dataset.
+A Python Script which is capable of grabbing all of the image files from a directory (as well as any Sub-Directories), and then creates a SHP file which contains relevant data regarding each image. This SHP file is then utilised by QGIS Server and a web-client to display the images and their locations as a point dataset.
 
 # Script Overview
 Prepares 2D and 360 (photosphere) images for use within a Web-GIS platform:
