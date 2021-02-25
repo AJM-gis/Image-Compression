@@ -1,7 +1,7 @@
 # Image-Compression-Script
 
 # The problem: 
-- Employees working on a data collection exercise drop photos onto a server. They also create their own individual folder structures, it is not possible to predict what folder structure they will use. a folder, they also drop other types of files into these folders.
+- Employees working on a data collection exercise drop photos onto a server. They also create their own individual folder structures, it is not possible to predict what folder structure they will use. They will also drop other types of files into these folders.
 - Client wishes to see the data displayed on an interactive mapping platform which shows the location of the images and is capable on displaying them within the platform.
 
 # The Solution:
